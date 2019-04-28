@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>create your account</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <p th:text="'こんにちは' " />
+     <tr>
+	<form method="post" action="register">
+	    <p th:text="'your name'"/>
+		<input type="text" name="name" value="" />
+	    <p th:text="'your age'"/>
+		<input type="text" name="age" value="" />
+	    <p th:text="'your password'"/>
+		<input type="password" name="password" value="" />
+		<input type="submit" value="create my account" />
+	</form>
+  </tr>
+</body>
+</html>

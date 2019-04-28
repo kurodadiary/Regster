@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Thymeleaf で出力しますよ</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <p th:text="'こんにちは, '  +  ${age} + '才の' + ${name} + 'さん!'" />
+    <p th:text="'あなたのニックネームを教えてください'"/>
+     <tr>
+    <b> 名前：</b></td>
+    <td><input type="text" name="name" size="30" maxlength="20"></td>
+  </tr>
+</body>
+</html>
