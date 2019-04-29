@@ -1,4 +1,4 @@
-package com.example.Thymeleaf;
+package com.example.repository;
 
 import java.util.List;
 
@@ -10,8 +10,12 @@ import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
 @Repository
-public interface AccountRepositry extends JpaRepository<Account, Integer> {
+public interface AccountRepository extends JpaRepository<Account, Integer> {
 
-    public Account findByname(String name);
+    public Account findByName(String name);
+    
+    public Account findByNameAndPassword(String name, String hashedPassword);
+    
+    public List<Account> findAll();    
    
 }

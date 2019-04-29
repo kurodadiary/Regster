@@ -1,4 +1,4 @@
-package com.example.Thymeleaf;
+package com.example.repository;
 
 import javax.persistence.*;
 

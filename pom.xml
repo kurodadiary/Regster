@@ -51,11 +51,16 @@
 		    <artifactId>hibernate-validator</artifactId>
 		    <version>6.0.9.Final</version>
 		</dependency>
-  <dependency>
-    <groupId>org.glassfish</groupId>
-    <artifactId>javax.el</artifactId>
-    <version>3.0.1-b09</version>
-  </dependency>
+		<dependency>
+		  <groupId>org.glassfish</groupId>
+		  <artifactId>javax.el</artifactId>
+		  <version>3.0.1-b09</version>
+		</dependency>
+		<dependency>
+		  <groupId>com.github.mahjong4j</groupId>
+		  <artifactId>mahjong4j</artifactId>
+		  <version>0.1.2</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
